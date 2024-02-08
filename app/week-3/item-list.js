@@ -76,7 +76,7 @@ const ItemList = () => {
 
     return (
         <ul>
-            <div class="grid grid-cols-2 gap-4 place-content-stretch h-48">  
+            <div className="grid grid-cols-2 gap-4 place-content-stretch h-48">  
             <div><Item {...item1}></Item></div>
             <div><Item  {...item2}></Item></div>
             <div><Item {...item3}></Item></div>
