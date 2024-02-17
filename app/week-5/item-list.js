@@ -23,10 +23,10 @@ const ItemList = () => {
             <div>
                 <div>
                     <button onClick = {() => handleSortChange('name')}
-                    style ={{ marginLeft:'20px',  marginBottom:'20px', backgroundColor: sortBy === 'name' ? 'lightgreen':'cyan', padding: '10px', fontSize:'16px', fontWeight: 'bold'}}> Name
+                    style ={{ marginLeft:'20px',  marginBottom:'20px', backgroundColor: sortBy === 'name' ? 'lightgreen':'cyan', padding: '10px', fontSize:'20px', fontWeight: 'bold'}}> Name
                     </button>
                     <button onClick ={()=>handleSortChange ('category')} 
-                    style={{display:'content',  marginBottom:'20px', marginLeft:'20px', backgroundColor: sortBy==='category'? 'red': 'blue', padding: '10px', fontSize:'16px', fontWeight: 'bold' }} > Category </button>
+                    style={{display:'content',  marginBottom:'20px', marginLeft:'20px', backgroundColor: sortBy==='category'? 'red': 'blue', padding: '10px', fontSize:'20px', fontWeight: 'bold' }} > Category </button>
 
                 </div>
                 <ul>
