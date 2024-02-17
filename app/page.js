@@ -14,6 +14,8 @@ export default function Page() {
         <Link href="week-3"> Week 3 Assignments</Link></li>
         <li className="bg-green-500 shadow-lg p-5 mb-10 rounded-md">
         <Link href="week-4"> Week 4 Assignments</Link></li>
+        <li className="bg-purple-500 shadow-lg p-5 mb-10 rounded-md">
+        <Link href="week-5"> Week 5 Assignments</Link></li>
         </div>
       </div></ul>
     </main>
