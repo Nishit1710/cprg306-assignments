@@ -20,7 +20,7 @@ export default function Page() {
         <Link href="week-6"> Week 6 Assignment</Link></li>
         <li className="bg-blue-500 shadow-lg p-5 mb-10 rounded-md">
         <Link href="week-7"> Week 7 Assignment</Link></li>
-        <li className="bg-white-500 shadow-lg p-5 mb-10 rounded-md">
+        <li className="bg-orange-500 shadow-lg p-5 mb-10 rounded-md">
         <Link href="week-8"> Week 8 Assignment</Link></li>
         </div>
       </div></ul>
